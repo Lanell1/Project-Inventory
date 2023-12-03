@@ -1,0 +1,140 @@
+font-family: "EB Garamond", serif;
+
+header h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+form input,
+form textarea {
+  font-size: 16px;
+}
+
+:root {
+  --main-bg-color: #fce6f2; /* Light pink background */
+  --main-text-color: #333;  /* Dark text color */
+  --accent-color: #ff66b2;  /* Pink accent color */
+  --accent-hover-color: #ff3385;  /* Darker pink on hover */
+}
+
+html,
+body {
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
+
+header {
+  background: var(--main-text-color);
+  border-bottom: 3px solid var(--accent-color);
+  color: var(--main-bg-color);
+}
+
+header h1 span {
+  color: var(--main-bg-color);
+}
+
+main {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.new-contact-form {
+  padding: 20px 0;
+}
+
+form input,
+form label,
+form textarea {
+  margin: 10px 0;
+}
+
+form button[type="submit"],
+button {
+  background: var(--accent-color);
+  color: var(--main-bg-color);
+}
+
+form button[type="submit"]:hover,
+button:hover {
+  background: var(--accent-hover-color);
+}
+
+.required {
+  color: var(--accent-color);
+}
+
+
+html,
+body {
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
+
+header {
+  background: var(--main-text-color);
+  border-bottom: 3px solid var(--accent-color);
+  color: var(--main-bg-color);
+}
+
+header h1 span {
+  color: var(--main-bg-color);
+}
+
+form button[type="submit"],
+button {
+  background: var(--accent-color);
+  color: var(--main-bg-color);
+}
+
+form button[type="submit"]:hover,
+button:hover {
+  background: var(--accent-hover-color);
+}
+
+.required {
+  color: var(--accent-color);
+}
+
+header h1 {
+  padding: 15px;
+}
+
+main {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.new-contact-form {
+  padding: 20px 0;
+}
+
+form input,
+form label,
+form textarea {
+  margin: 10px 0;
+}
+
+form button[type="submit"],
+button {
+  margin: 15px 0;
+}
+
+form button[type="submit"],
+button {
+  transition: background 0.3s ease-in-out;
+}
+
+.new-book-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-book-form label,
+.new-book-form input,
+.new-book-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
